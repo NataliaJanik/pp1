@@ -1,0 +1,4 @@
+imie = "Natalia"
+nazwisko = "Janik"
+wiek = "29"
+print(imie + ' ' + nazwisko + ', ' + wiek + ' lat')
