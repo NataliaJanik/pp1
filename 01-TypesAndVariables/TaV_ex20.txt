@@ -1,0 +1,13 @@
+import math
+
+# ustal promieñ ko³a i PI
+pi = math.pi
+r = 5
+ 
+# oblicz pole i obwód
+P = pi*r**2
+O = 2*pi*r
+ 
+# wyœwietl rezultaty
+print("""Pole ko³a o promieniu {0} wynosi {1} 
+Obwód ko³a o promieniu {0} wynosi {2}""".format(r,P,O))
