@@ -1,0 +1,13 @@
+try:
+    c = 0
+    suma = 0
+    while True:    
+        a = int(input('Podaj liczbę: '))
+        if a == 0:
+            srednia = suma/c
+            break
+        c += 1
+        suma += a
+    print(f'REZULTAT: Liczb: {c}, Suma={suma}, Średnia={srednia}')
+except ValueError:
+    print('Podana wartość nie jest liczbą!')
