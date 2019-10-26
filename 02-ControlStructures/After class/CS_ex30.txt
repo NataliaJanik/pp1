@@ -1,0 +1,8 @@
+for x in range(3):
+    if input("Podaj kod PIN: ") == '0805':
+        print('Zalogowano.')
+        break
+    else:
+        print('Kod PIN niepoprawny.')
+    if x == 2:
+        print('Karta płatnicza zostaje zablokowana.')
